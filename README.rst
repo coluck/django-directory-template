@@ -101,7 +101,7 @@ Commands
 Lives in core app.
 
 setup
-*****
+------
 Calls:
 codeblocks:: bash
     $ python manage.py makemigrations
@@ -110,27 +110,28 @@ codeblocks:: bash
 in order.
 
 generatekey
-***********
+------------
 Creates a secret key and stores in .env file.
 
 startapp(override)
-******************
+-------------------
 Starts app in app directory. Do not worry about the folder location
 
 Todos
 =====
+
 config/settings/production.py
-******************************
+---------------------------------
 TODO: enter site domain name only ex: ALLOWED_HOSTS['example.com']
 
 config/settings/base.py
-******************************
+------------------------
 TODO: change it which database you will use, at the bottom postgresql example shown
 
 config/wsgi.py
-***************
+---------------
 TODO: change to production when deploy ex: 'config.settings.production'
 
 manage.py
-***********
+--------------
 TODO: change to production when deploy ex: 'config.settings.production'
