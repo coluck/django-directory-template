@@ -1,0 +1,16 @@
+from .base import *
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+# Django Toolbar settings
+# https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+INSTALLED_APPS += ['debug_toolbar']
+
+MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware']
+
+INTERNAL_IPS = ALLOWED_HOSTS
+
+# Email settings
+#
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
