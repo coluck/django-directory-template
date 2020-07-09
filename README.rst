@@ -17,7 +17,7 @@ Usage
     $ mkdir project && cd project/
 
     # Make sure we have an up-to-date version of django 2.2
-    $ django-admin startproject --template=https://github.com/goeswog/django-directory-template/archive/master.zip [project_name]
+    $ django-admin startproject --template=https://github.com/coluck/django-directory-template/archive/master.zip [project_name]
 
     # Install dependencies django-debug-toolbar, python-decouple
     $ pip3 install -r requirements.txt
